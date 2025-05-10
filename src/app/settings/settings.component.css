@@ -1,0 +1,16 @@
+.settings {
+  padding: 20px;
+}
+
+button {
+  padding: 8px 12px;
+  background-color: var(--Primary);
+  color: var(--White);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: var(--DarkAccent);
+}

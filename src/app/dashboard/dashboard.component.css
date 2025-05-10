@@ -1,0 +1,58 @@
+.dashboard-wrapper {
+    height: 650px;
+    border-radius: 5px;
+    border: 1px solid var(--BackgroundLight);
+    box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.18);
+}
+
+.dashboard {
+    display: flex;
+    flex: 1;
+    height: 100%;
+    width: 100%;
+}
+
+.dashboard app-sidebar {
+    flex-basis: 300px;
+}
+
+.dashboard app-map {
+    flex-basis: auto;
+    min-width: 0;
+}
+
+@media (max-width: 767px) {
+    .dashboard-wrapper {
+        height: 100vh;
+    }
+
+    .dashboard {
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .dashboard app-sidebar {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+
+    .dashboard app-map {
+        padding: 20px;
+        background-color: var(--BackgroundLightBlue);
+    }
+}
+
+.leaflet-pane,
+.leaflet-tile,
+.leaflet-marker-icon,
+.leaflet-marker-shadow,
+.leaflet-tile-container,
+.leaflet-pane>svg,
+.leaflet-pane>canvas,
+.leaflet-zoom-box,
+.leaflet-image-layer,
+.leaflet-layer {
+    position: absolute;
+    left: 29px;
+    top: 0;
+}

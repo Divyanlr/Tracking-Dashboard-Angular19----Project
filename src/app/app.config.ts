@@ -1,8 +1,18 @@
-import { ApplicationConfig, provideZoneChangeDetection } from '@angular/core';
-import { provideRouter } from '@angular/router';
+import { ApplicationConfig } from '@angular/core';
+import { provideRouter, Routes } from '@angular/router';
+import { provideHttpClient } from '@angular/common/http';
+import { DashboardComponent } from './dashboard/dashboard.component';
+import { SettingsComponent } from './settings/settings.component';
 
-import { routes } from './app.routes';
+const routes: Routes = [
+  { path: '', component: DashboardComponent },
+  { path: 'settings', component: SettingsComponent },
+  { path: '**', redirectTo: '' } // Redirect unknown routes to root
+];
 
 export const appConfig: ApplicationConfig = {
-  providers: [provideZoneChangeDetection({ eventCoalescing: true }), provideRouter(routes)]
+  providers: [
+    provideRouter(routes),
+    provideHttpClient()
+  ]
 };

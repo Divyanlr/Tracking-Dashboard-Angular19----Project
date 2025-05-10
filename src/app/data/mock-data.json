@@ -1,0 +1,92 @@
+{
+  "individuals": [
+    {
+      "id": 1,
+      "name": "Anna Müller",
+      "location": {
+        "lat": 52.5200,
+        "lng": 13.4050
+      },
+      "status": "safe",
+      "lastUpdated": "2025-05-10T08:30:00Z",
+      "showInSidebar": false
+    },
+    {
+      "id": 2,
+      "name": "Lukas Schmidt",
+      "location": {
+        "lat": 48.1351,
+        "lng": 11.5820
+      },
+      "status": "needs attention",
+      "lastUpdated": "2025-05-10T08:15:00Z",
+      "showInSidebar": false
+    },
+    {
+      "id": 3,
+      "name": "Sophie Wagner",
+      "location": {
+        "lat": 53.5511,
+        "lng": 9.9937
+      },
+      "status": "safe",
+      "lastUpdated": "2025-05-10T08:20:00Z",
+      "showInSidebar": false
+    },
+    {
+      "id": 4,
+      "name": "Max Fischer",
+      "location": {
+        "lat": 50.9375,
+        "lng": 6.9603
+      },
+      "status": "needs attention",
+      "lastUpdated": "2025-05-10T08:10:00Z",
+      "showInSidebar": false
+    },
+    {
+      "id": 5,
+      "name": "Emma Weber",
+      "location": {
+        "lat": 52.5244,
+        "lng": 13.4105
+      },
+      "status": "safe",
+      "lastUpdated": "2025-05-10T08:35:00Z",
+      "showInSidebar": false
+    },
+    {
+      "id": 6,
+      "name": "Finn Hoffmann",
+      "location": {
+        "lat": 48.1400,
+        "lng": 11.5750
+      },
+      "status": "needs attention",
+      "lastUpdated": "2025-05-10T08:25:00Z",
+      "showInSidebar": false
+    },
+    {
+      "id": 7,
+      "name": "Lena Becker",
+      "location": {
+        "lat": 53.5460,
+        "lng": 9.9850
+      },
+      "status": "safe",
+      "lastUpdated": "2025-05-10T08:30:00Z",
+      "showInSidebar": false
+    },
+    {
+      "id": 8,
+      "name": "Leon Meyer",
+      "location": {
+        "lat": 50.9400,
+        "lng": 6.9500
+      },
+      "status": "needs attention",
+      "lastUpdated": "2025-05-10T08:20:00Z",
+      "showInSidebar": false
+    }
+  ]
+}
